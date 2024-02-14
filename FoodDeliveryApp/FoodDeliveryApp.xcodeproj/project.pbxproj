@@ -20,10 +20,10 @@
 		BB650F262B7BECBF00480E79 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB650F192B7BECBF00480E79 /* Roboto-Bold.ttf */; };
 		BB650F272B7BECBF00480E79 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB650F1A2B7BECBF00480E79 /* Roboto-Thin.ttf */; };
 		BB650F282B7BECBF00480E79 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB650F1B2B7BECBF00480E79 /* Roboto-Black.ttf */; };
+		BB68939F2B7D285300B8B4D5 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68939E2B7D285300B8B4D5 /* UIFont+Extension.swift */; };
 		BBA4F4512B7A186E008DEB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4F4502B7A186E008DEB58 /* AppDelegate.swift */; };
 		BBA4F4532B7A186E008DEB58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4F4522B7A186E008DEB58 /* SceneDelegate.swift */; };
 		BBA4F4552B7A186E008DEB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4F4542B7A186E008DEB58 /* ViewController.swift */; };
-		BBA4F4582B7A186E008DEB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA4F4562B7A186E008DEB58 /* Main.storyboard */; };
 		BBA4F45A2B7A186F008DEB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBA4F4592B7A186F008DEB58 /* Assets.xcassets */; };
 		BBA4F45D2B7A186F008DEB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBA4F45B2B7A186F008DEB58 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -42,11 +42,11 @@
 		BB650F192B7BECBF00480E79 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		BB650F1A2B7BECBF00480E79 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		BB650F1B2B7BECBF00480E79 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		BB68939E2B7D285300B8B4D5 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		BBA4F44D2B7A186E008DEB58 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA4F4502B7A186E008DEB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBA4F4522B7A186E008DEB58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BBA4F4542B7A186E008DEB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BBA4F4572B7A186E008DEB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBA4F4592B7A186F008DEB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBA4F45C2B7A186F008DEB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBA4F45E2B7A186F008DEB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +66,7 @@
 		BB650F0C2B7BEC8000480E79 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BB68939D2B7D281C00B8B4D5 /* Extensions */,
 				BB650F0D2B7BEC9500480E79 /* Fonts */,
 			);
 			path = Resources;
@@ -99,6 +100,14 @@
 			path = Roboto;
 			sourceTree = "<group>";
 		};
+		BB68939D2B7D281C00B8B4D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB68939E2B7D285300B8B4D5 /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BBA4F4442B7A186E008DEB58 = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +131,6 @@
 				BBA4F4502B7A186E008DEB58 /* AppDelegate.swift */,
 				BBA4F4522B7A186E008DEB58 /* SceneDelegate.swift */,
 				BBA4F4542B7A186E008DEB58 /* ViewController.swift */,
-				BBA4F4562B7A186E008DEB58 /* Main.storyboard */,
 				BBA4F4592B7A186F008DEB58 /* Assets.xcassets */,
 				BBA4F45B2B7A186F008DEB58 /* LaunchScreen.storyboard */,
 				BBA4F45E2B7A186F008DEB58 /* Info.plist */,
@@ -203,7 +211,6 @@
 				BB650F1F2B7BECBF00480E79 /* Roboto-MediumItalic.ttf in Resources */,
 				BBA4F45A2B7A186F008DEB58 /* Assets.xcassets in Resources */,
 				BB650F232B7BECBF00480E79 /* Roboto-Italic.ttf in Resources */,
-				BBA4F4582B7A186E008DEB58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +223,7 @@
 			files = (
 				BBA4F4552B7A186E008DEB58 /* ViewController.swift in Sources */,
 				BBA4F4512B7A186E008DEB58 /* AppDelegate.swift in Sources */,
+				BB68939F2B7D285300B8B4D5 /* UIFont+Extension.swift in Sources */,
 				BBA4F4532B7A186E008DEB58 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BBA4F4562B7A186E008DEB58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBA4F4572B7A186E008DEB58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BBA4F45B2B7A186F008DEB58 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -373,7 +373,6 @@
 				INFOPLIST_FILE = FoodDeliveryApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,7 +400,6 @@
 				INFOPLIST_FILE = FoodDeliveryApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -24,7 +24,7 @@ class ViewController: UIViewController {
             label.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 20),
         ])
         
-        label.font = .systemFont(ofSize: 40, weight: UIFont.Weight(rawValue: 20))
+        label.font = .Roboto.bold.size(of: 40)
         label.textColor = .white
         
         view.backgroundColor = .red
