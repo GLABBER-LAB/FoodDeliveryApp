@@ -23,6 +23,7 @@
 		BB68939F2B7D285300B8B4D5 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB68939E2B7D285300B8B4D5 /* UIFont+Extension.swift */; };
 		BB6893A12B7D362700B8B4D5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6893A02B7D362700B8B4D5 /* UIColor+Extension.swift */; };
 		BB6893A32B7D377800B8B4D5 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6893A22B7D377800B8B4D5 /* AppColors.swift */; };
+		BB75C62A2B88E11A0075F52C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB75C6292B88E11A0075F52C /* Coordinator.swift */; };
 		BBA4F4512B7A186E008DEB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4F4502B7A186E008DEB58 /* AppDelegate.swift */; };
 		BBA4F4532B7A186E008DEB58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4F4522B7A186E008DEB58 /* SceneDelegate.swift */; };
 		BBA4F4552B7A186E008DEB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA4F4542B7A186E008DEB58 /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 		BB68939E2B7D285300B8B4D5 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		BB6893A02B7D362700B8B4D5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BB6893A22B7D377800B8B4D5 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		BB75C6292B88E11A0075F52C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BBA4F44D2B7A186E008DEB58 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA4F4502B7A186E008DEB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBA4F4522B7A186E008DEB58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,30 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		BB75C6262B88E08D0075F52C /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BB75C6282B88E0DE0075F52C /* Coordinators */,
+				BB75C6272B88E0C60075F52C /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		BB75C6272B88E0C60075F52C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB75C6282B88E0DE0075F52C /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				BB75C6292B88E11A0075F52C /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		BBA4F4442B7A186E008DEB58 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +159,7 @@
 		BBA4F44F2B7A186E008DEB58 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				BB75C6262B88E08D0075F52C /* NavigationLayer */,
 				BB650F0C2B7BEC8000480E79 /* Resources */,
 				BBA4F4502B7A186E008DEB58 /* AppDelegate.swift */,
 				BBA4F4522B7A186E008DEB58 /* SceneDelegate.swift */,
@@ -233,6 +260,7 @@
 				BB6893A32B7D377800B8B4D5 /* AppColors.swift in Sources */,
 				BBA4F4532B7A186E008DEB58 /* SceneDelegate.swift in Sources */,
 				BB6893A12B7D362700B8B4D5 /* UIColor+Extension.swift in Sources */,
+				BB75C62A2B88E11A0075F52C /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
