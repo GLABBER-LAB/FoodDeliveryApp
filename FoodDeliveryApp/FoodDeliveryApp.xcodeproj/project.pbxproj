@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB6258402B8A05E50037057B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB62583F2B8A05E50037057B /* AppCoordinator.swift */; };
+		BB6258422B8A08440037057B /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6258412B8A08440037057B /* OnboardingCoordinator.swift */; };
 		BB650F1C2B7BECBF00480E79 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB650F0F2B7BECBF00480E79 /* Roboto-Medium.ttf */; };
 		BB650F1D2B7BECBF00480E79 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB650F102B7BECBF00480E79 /* Roboto-Light.ttf */; };
 		BB650F1E2B7BECBF00480E79 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB650F112B7BECBF00480E79 /* Roboto-Regular.ttf */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB62583F2B8A05E50037057B /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BB6258412B8A08440037057B /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		BB650F0F2B7BECBF00480E79 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		BB650F102B7BECBF00480E79 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		BB650F112B7BECBF00480E79 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				BB75C6292B88E11A0075F52C /* Coordinator.swift */,
+				BB62583F2B8A05E50037057B /* AppCoordinator.swift */,
+				BB6258412B8A08440037057B /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 				BBA4F4512B7A186E008DEB58 /* AppDelegate.swift in Sources */,
 				BB68939F2B7D285300B8B4D5 /* UIFont+Extension.swift in Sources */,
 				BB6893A32B7D377800B8B4D5 /* AppColors.swift in Sources */,
+				BB6258422B8A08440037057B /* OnboardingCoordinator.swift in Sources */,
+				BB6258402B8A05E50037057B /* AppCoordinator.swift in Sources */,
 				BBA4F4532B7A186E008DEB58 /* SceneDelegate.swift in Sources */,
 				BB6893A12B7D362700B8B4D5 /* UIColor+Extension.swift in Sources */,
 				BB75C62A2B88E11A0075F52C /* Coordinator.swift in Sources */,
